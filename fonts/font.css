@@ -1,0 +1,56 @@
+
+@font-face {
+ font-family: cav;
+ src: url("CaviarDreams.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: cav;
+ src: url("CaviarDreams.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: cavb;
+ src: url("Caviar Dreams Bold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: cavb;
+ src: url("Caviar Dreams Bold.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face{
+	font-family:z;
+	src:url("Quicksand-Regular.otf");
+}
+@font-face {
+ font-family: essli;
+ src:url("Essence Sans Light Italic.ttf");/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: ess;
+ src:url("Essence Sans.ttf");/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: neobold;
+ src:url("Neou-Bold.otf");/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: essli;
+ src:url("Essence Sans Light Italic.ttf");/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: neothin;
+ src:url("Neou-Thin.ttf");/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: bebasneue;
+ src:url("BebasNeue.otf");/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: a;
+ src:url("4641.ttf");/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: b;
+ src:url("4641.ttf");/* TTF file for CSS3 browsers */
+}
+
