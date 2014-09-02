@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link rel = "stylesheet" type = "text/css" href = "CSS/camera.css">
 <link rel = "stylesheet" type = "text/css" href = "CSS/general.css">
 <link rel = "stylesheet" href = "fonts/font.css">
 <link rel = "stylesheet" type = "text/css" href = "CSS/style.css">
@@ -10,55 +11,48 @@
 <body>
 <div class ="container">
 	<div class = "col-sm-12 logo margin-bot margin-top"><img src ="img/logo.png"></div>
-	<div class ="row margin-bot">
-		
-		<div class ="col-sm-3">
-			<!--290x260px-->
-			<div>
-				<img src = "img/sm-banner1.jpg" class ="img-thumbnail">
-				<div class ="sm-banner-caption">Some Caption Here</div>
-			</div>
-			<div>
-				<img src = "img/sm-banner1.jpg" class ="img-thumbnail">
-				<div class ="sm-banner-caption">Some Caption Here</div>
-			</div>
-			<div>
-				<img src = "img/sm-banner1.jpg" class ="img-thumbnail">
-				<div class ="sm-banner-caption">Some Caption Here</div>
-			</div>
-		</div>
-
-		<!--600x740px-->
-		<div class ="col-sm-6">
-			<img src ="img/lg-banner.jpg" class ="lg-banner">
-		</div>
-		
-		<div class ="col-sm-3">
-			<!--290x260px-->
-			<div>
-				<img src = "img/sm-banner1.jpg" class ="img-thumbnail">
-				<div class ="sm-banner-caption">Some Caption Here</div>
-			</div>
-		</div>
-
-	</div>
-	<div class ="margin-side margin-bot">
-		<!--290x435px-->
-		<div class = "col-sm-3">
-			<img src ="img/tall-banner.jpg" class ="tall-banner">
-		</div>
-		<div class = "col-sm-3">
-			<img src ="img/tall-banner.jpg" class ="tall-banner">
-		</div>
-		<div class = "col-sm-3">
-			<img src ="img/tall-banner.jpg" class ="tall-banner">
-		</div>
-		<div class = "col-sm-3">
-			<img src ="img/tall-banner.jpg" class ="tall-banner">
-		</div>
-	</div>
-	</div>
-	<footer id ="footer"></footer>
-
 </div>
+	<!-- #camera_wrap_1 -->
+	<div class="container-fluid" >
+
+		<div class = "row">
+		<div class ="col-sm-4">
+			<img src = "img/sm-banner3.jpg" class ="img-thumbnail sm-pic">
+			<img src = "img/sm-banner3.jpg" class ="img-thumbnail sm-pic">
+			<img src = "img/sm-banner3.jpg" class ="img-thumbnail sm-pic">
+		</div>
+
+		<div class ="col-sm-4">
+		<div class="camera_wrap camera_bar" id="camera_wrap_1" >
+			<div data-src="img/lg-banner.jpg"  data-fx="simpleFade"  data-transPeriod="3000" ></div>
+			<div data-src="img/sm-banner1.jpg"  data-fx="simpleFade"  data-transPeriod="3000" ></div>
+			<div data-src="img/sm-banner2.jpg"  data-fx="simpleFade"  data-transPeriod="3000" >
+			</div>
+		</div>
+		</div>
+
+		<div class ="col-sm-4"></div>	
+	</div>
+
+	</div>
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/camera.js'></script>
+<script type="text/javascript" src = "js/Main.js"></script>
+<script>
+							
+	jQuery(function(){
+		jQuery('#camera_wrap_1').camera({
+			pagination: false,
+			height:'600px',
+			navigation:false,
+			time: 1000,
+		});
+	});
+				
+</script>
 </body>
